@@ -69,7 +69,7 @@
 	</div>
 	<div class="h-[500px] w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
-			<ChatMessage type="assistant" message="Halo, tanyakan apa pun yang ingin anda tanyakan !" />
+			<ChatMessage type="assistant" message="Halo saya HuTao, tanyakan apa saja yang ingin kamu tanyakan !" />
 			{#each chatMessages as message}
 				<ChatMessage type={message.role} message={message.content} />
 			{/each}
@@ -87,6 +87,6 @@
 		on:submit|preventDefault={() => handleSubmit()}
 	>
 		<input type="text" class="input input-bordered w-full" bind:value={query} />
-		<button type="submit" class="btn btn-accent"> Send </button>
+		<button type="submit" class="btn btn-accent"> Kirim </button>
 	</form>
 </div>
