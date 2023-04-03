@@ -8,7 +8,7 @@
 	<div class="chat-image avatar">
 		<div class="w-10 rounded-full">
 			<img
-				src="https://ui-avatars.com/api/?name={type === 'user' ? 'Me' : 'B'}"
+				src="https://telegra.ph/file/{type === 'user' ? '196b2137601ca1d79c409.jpg' : '94ec1a6372347edfa5781.jpg'}"
 				alt="{type} avatar"
 			/>
 		</div>
